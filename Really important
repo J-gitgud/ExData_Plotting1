@@ -1,0 +1,11 @@
+IMPORTANT
+
+I took this code
+
+Power[1:1440,"Time"] <- format(Power[1:1440,"Time"],"2007-02-01 %H:%M:%S")
+Power[1441:2880,"Time"] <- format(Power[1441:2880,"Time"],"2007-02-02 %H:%M:%S")
+
+from stack overflow, i was running into a problem for the plot to read the date in an accurate manner
+
+The rest of the code is my own 
+
